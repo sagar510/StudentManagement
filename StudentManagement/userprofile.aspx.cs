@@ -13,7 +13,7 @@ namespace StudentManagement
     {
         
         
-        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-ROFH7UU1\SQLEXPRESS;Initial Catalog=smsmini;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-HN3JSUR;Initial Catalog=smsmini;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
         {

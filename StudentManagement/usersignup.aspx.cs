@@ -20,7 +20,7 @@ namespace StudentManagement
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-ROFH7UU1\SQLEXPRESS;Initial Catalog=smsmini;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-HN3JSUR;Initial Catalog=smsmini;Integrated Security=True");
             SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[usersignup]
            ([Full Name]
            ,[Date of Birth]
